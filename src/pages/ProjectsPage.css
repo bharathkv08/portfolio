@@ -1,0 +1,38 @@
+/* Projects Page Container */
+.projects-page {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Projects Page Content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .projects-heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Description Paragraph */
+  .projects-description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .projects-heading {
+      font-size: 2rem;
+    }
+  
+    .projects-description {
+      font-size: 1rem;
+    }
+  }
+  
